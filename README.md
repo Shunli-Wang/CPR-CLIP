@@ -31,7 +31,7 @@ mv TSN_Single_Feat.pkl TSN_Composite_Feat.pkl ./pkl/
 ## Datasets
 The [CPR-Coach](https://shunli-wang.github.io/CPR-Coach/) dataset provides 14 single-class actions and 74 composite error actions in four different perspectives, containing 4,544 videos. The performance of composite error action recognition is measured through mAP and mmit mAP. 
 
-This repository provides the extracted video TSN features `TSN-Feature.tar.gz` (~33MB). You can download it from [BaiduNetDisk](https://pan.baidu.com/s/1SD2tLt93cyNlo7PcBwTz1g)[star] or Google Drive.
+This repository provides the extracted video TSN features `TSN-Feature.tar.gz` (~33MB). You can download it from [BaiduNetDisk](https://pan.baidu.com/s/1SD2tLt93cyNlo7PcBwTz1g)[star] or [Google Drive](https://drive.google.com/file/d/1VtA2A6VIrY7ZZEzV7aE_L6rZ9WRDOPZF/view?usp=sharing).
 
 <div  align="center">
 <img src="./imgs/CPR-Coach.png" width="55%">
@@ -52,8 +52,9 @@ python ./CPR-CLIP.py --exp_name 'CPR-CLIP+_w_TSN' --enable_CLIP_loss --enable_BC
 ## Acknowledgements
 This project is based on [CLIP](https://github.com/openai/CLIP) and [CPR-Coach](https://shunli-wang.github.io/CPR-Coach/).
 
-If this repository is helpful to you, could you please give this repository a small **STAR**. Thank you!
+If this repository is helpful to you, please give this repository a small **STAR**!
 
 ## Concate
 If you have any questions about our work, feel free to contact [slwang19@fudan.edu.cn](slwang19@fudan.edu.cn).
+
 Please continue to pay attention to the subsequent code and data releasing.
